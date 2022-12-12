@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "Tower_of_Hanoi.C": "cpp",
+        "Insertion_LinkedList.C": "cpp",
+        "Kruskal's_Algorithm.C": "cpp"
+    }
+}
