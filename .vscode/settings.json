@@ -10,6 +10,8 @@
         "Selection_Sort.C": "cpp",
         "Stack Using Array.C": "cpp",
         "Stack_Using_Array.C": "cpp",
-        "Queue_ Using_Array.C": "cpp"
+        "Queue_ Using_Array.C": "cpp",
+        "Linear_Search.C": "cpp",
+        "Bubble_Sort.C": "cpp"
     }
 }
