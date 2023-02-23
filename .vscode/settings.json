@@ -8,6 +8,8 @@
         "Queue_ Array.C": "cpp",
         "Union_of_sets.C": "cpp",
         "Selection_Sort.C": "cpp",
-        "Stack Using Array.C": "cpp"
+        "Stack Using Array.C": "cpp",
+        "Stack_Using_Array.C": "cpp",
+        "Queue_ Using_Array.C": "cpp"
     }
 }
