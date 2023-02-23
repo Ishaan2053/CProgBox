@@ -53,7 +53,7 @@ void display()
 }
 int main()
 {
-    int choice;
+    int choice, x;
     while (choice != 4)
     {
         printf("\nEnter\n 1:Enqueue \n 2:Dequeue \n 3:Display \n 4:Exit");
@@ -62,7 +62,8 @@ int main()
         {
         case 1:
             printf("\nEnter node to be inserted:");
-            enqueue();
+            scanf("%d", &x);
+            enqueue(x);
             break;
 
         case 2:
@@ -71,7 +72,7 @@ int main()
             break;
 
         case 3:
-            printf("\nThe list is:\n");
+            printf("\nThe queue is:\n");
             display();
             break;
 

@@ -43,7 +43,7 @@ int main()
     int choice;
     while (choice != 4)
     {
-        printf("Enter:-\n0:Exit\n1:Push\n2:Pop\n3:Display");
+        printf("Enter:-\n0:Exit\n1:Push\n2:Pop\n3:Display\n4:Exit");
         scanf("%d", &choice);
         switch (choice)
         {
