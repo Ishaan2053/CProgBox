@@ -2,6 +2,12 @@
     "files.associations": {
         "Tower_of_Hanoi.C": "cpp",
         "Insertion_LinkedList.C": "cpp",
-        "Kruskal's_Algorithm.C": "cpp"
+        "Kruskal's_Algorithm.C": "cpp",
+        "circular_linked_list.C": "cpp",
+        "Queue_linkedlist.C": "cpp",
+        "Queue_ Array.C": "cpp",
+        "Union_of_sets.C": "cpp",
+        "Selection_Sort.C": "cpp",
+        "Stack Using Array.C": "cpp"
     }
 }
