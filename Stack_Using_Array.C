@@ -15,6 +15,7 @@ void push()
     {
         top++;
         Stack[top] = x;
+        printf ("Element %d pushed into the stack.\n", x);
     }
 }
 void pop()
@@ -33,6 +34,7 @@ void pop()
 void display()
 {
     int i;
+    printf("\nThe array is:\n");
     for (i = top; i >= 0; i--)
     {
         printf("%d\n", Stack[i]);
@@ -43,7 +45,7 @@ int main()
     int choice;
     while (choice != 4)
     {
-        printf("Enter:-\n0:Exit\n1:Push\n2:Pop\n3:Display\n4:Exit");
+        printf("\nEnter:-\n1:Push\n2:Pop\n3:Display\n4:Exit");
         scanf("%d", &choice);
         switch (choice)
         {
