@@ -15,12 +15,12 @@ void push()
     {
         top++;
         Stack[top] = x;
-        printf ("Element %d pushed into the stack.\n", x);
+        printf("Element %d pushed into the stack.\n", x);
     }
 }
 void pop()
 {
-    int y;
+    int y;  
     if (top == -1)
     {
         printf("underflow");
