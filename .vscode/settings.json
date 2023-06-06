@@ -16,6 +16,7 @@
         "tempCodeRunnerFile.C": "cpp",
         "Binary_Search.C": "cpp",
         "Shortest_job.C": "cpp",
-        "Producer Consumer Problem.C": "cpp"
+        "Producer Consumer Problem.C": "cpp",
+        "Dining Philosopher's Problem.C": "cpp"
     }
 }

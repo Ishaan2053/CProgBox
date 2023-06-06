@@ -83,16 +83,13 @@ int main()
 		switch (n) {
 		case 1:
 
-			// If mutex is 1 and empty
-			// is non-zero, then it is
-			// possible to produce
+			// If mutex is 1 and empty is non-zero, then it is possible to produce
 			if ((mutex == 1)
 				&& (empty != 0)) {
 				producer();
 			}
 
-			// Otherwise, print buffer
-			// is full
+			// Otherwise, print buffer is full
 			else {
 				printf("Buffer is full!");
 			}
@@ -108,8 +105,7 @@ int main()
 				consumer();
 			}
 
-			// Otherwise, print Buffer
-			// is empty
+			// Otherwise, print Buffer is empty
 			else {
 				printf("Buffer is empty!");
 			} 
